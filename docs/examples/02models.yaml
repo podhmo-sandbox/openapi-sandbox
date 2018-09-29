@@ -1,0 +1,27 @@
+# from https://swagger.io/docs/specification/basic-structure/
+
+components:
+  schemas:
+    User:
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+      # Both properties are required
+      required:
+        - id
+        - name
+
+# # 2.0
+# definitions:
+#   User:
+#     properties:
+#       id:
+#         type: integer
+#       name:
+#         type: string
+#     # Both properties are required
+#     required:
+#       - id
+#       - name
